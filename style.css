@@ -171,7 +171,6 @@ footer a:hover{
 }
 
 article:hover{
-    background-color: darkgreen;
-    height: 380px;
-    width: 26%;
+    background-color: #a6f2c1;
+    transform: scale(1.2);
 }
