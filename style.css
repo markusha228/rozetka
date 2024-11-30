@@ -174,3 +174,11 @@ article:hover{
     background-color: #a6f2c1;
     transform: scale(1.2);
 }
+
+.imge{
+    height: 70%;
+}
+
+.textt{
+    height: 30%;
+}
