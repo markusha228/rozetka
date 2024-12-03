@@ -51,18 +51,14 @@ section{
 }
 
 article{
-    width: 22%;
+    width: 20%;
     text-align: center;
-    margin: 15px;
+    margin: 25px;
     background-color: #ffffff;
-    height: 340px;
+    height: 400px;
     border: darkgreen solid 5px;
 }
 
-article p{
-    color: #000000;
-    
-}
 
 
 .logo{
@@ -86,7 +82,7 @@ footer{
     margin-left: 90px;
 }
 
-div{
+.conteiner-buttom{
     display: flex;
     position: relative;
     left: 150px;
@@ -114,10 +110,8 @@ div{
 }
 
 .image{
-   position: relative;
-   left: 300px;
-   width: 950px;
-   height: 500px;
+    width: 60%;
+    height: 0%;
 }
 
 .ul{
@@ -126,13 +120,9 @@ div{
 }
 
 article img{
-    width: 200px;
-    height: 200px;
+    width: 95%;
+    height: 70%;
     margin: 5px;
-}
-
-.k{
-    height: 250px;
 }
 
 nav a:visited{
@@ -167,7 +157,9 @@ footer a:hover{
 }
 
 .con{
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 article:hover{
@@ -175,10 +167,33 @@ article:hover{
     transform: scale(1.2);
 }
 
-.imge{
-    height: 70%;
+.img-sell{
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
 }
 
-.textt{
+.text-sell{
     height: 30%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.n{
+    height: 300px;
+}
+
+.conteiner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.con a{
+    display: block;
+    margin: 30px;
 }
